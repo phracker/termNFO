@@ -2,20 +2,27 @@
 ===
 GUIs are for pussies, kiddies, and wannabes.  I'm looking at you `Ascension`.  Now open your damn .NFO files like a man, man.
 
-
-
 This is basically just a shell alias to `iconv -f cp437 -t utf8`.   
 
 I recommend using the included font, `Terminus`, as your Terminal font.  But `Andale Mono`, `Monaco`, and `Menlo` will work too.
 
-Just run the included `install.sh` and get freaky.
-That script installs an alias to your `.bashrc` called `nfo`.
+Installation
+---
+To install, `cd` into the project's directory and do:
+
+```
+sudo install.sh
+```
+
+That script installs an alias to your `.bashrc` called `nfo` and installs `Terminus.dfont` to `/Library/Fonts`.
 
 Usage:
+---
 ```
 nfo <filename>
 ```
 
+===
 ```
 Copyright (c) 2013, phracker <phracker@lavabit.com>
 This software is licensed under the ISC License.
