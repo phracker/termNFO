@@ -16,6 +16,8 @@ sudo install.sh
 
 That script installs an alias to your `.bashrc` called `nfo` and installs `Terminus.dfont` to `/Library/Fonts`.
 
+If you can't run `install.sh`, make sure you `chmod +x install.sh`.  But you knew that already.
+
 Usage:
 ---
 ```
