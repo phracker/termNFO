@@ -2,8 +2,6 @@
 ===
 GUIs are for pussies, kiddies, and wannabes.  I'm looking at you `Ascension`.  Now open your damn .NFO files like a man, man.
 
-This is basically just a shell alias to `iconv -f cp437 -t utf8`.   
-
 I recommend using the included font, `Terminus`, as your Terminal font.  But `Andale Mono`, `Monaco`, and `Menlo` will work too.
 
 Installation
@@ -14,12 +12,17 @@ To install, `cd` into the project's directory and do:
 sudo install.sh
 ```
 
-That script installs an alias to your `.bashrc` called `nfo` and installs `Terminus.dfont` to `/Library/Fonts`.
+That script installs an alias to your `.bashrc` called `nfo`, installs `Terminus.dfont` to `/Library/Fonts`, drops a build of `realpath` in `/usr/bin`, and copies `termNFO.app` to the `/Applications` directory.
+
+For optimal viewing use the included `TermNFO.terminal` profile as `Terminal.app`'s default profile.
+
+File association is fully working using the included .app on systems running Mac OS X 10.6 or later.
 
 If you can't run `install.sh`, make sure you `chmod +x install.sh`.  But you knew that already.
 
 Usage:
 ---
+You can use termNFO in either of two ways
 ```
 nfo <filename>
 ```
