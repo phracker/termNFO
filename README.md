@@ -9,7 +9,7 @@ Installation
 To install, `cd` into the project's directory and do:
 
 ```
-sudo install.sh
+sudo ./install.sh
 ```
 
 That script installs an alias to your `.bashrc` called `nfo`, installs `Terminus.dfont` to `/Library/Fonts`, drops a build of `realpath` in `/usr/bin`, and copies `termNFO.app` to the `/Applications` directory.
