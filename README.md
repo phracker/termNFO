@@ -22,10 +22,9 @@ If you can't run `install.sh`, make sure you `chmod +x install.sh`.  But you kne
 
 Usage:
 ---
-You can use termNFO in either of two ways
-```
-nfo <filename>
-```
+You can use termNFO in either of two ways.  You can do `nfo <filename>` at the terminal or you can associate .nfo files with termNFO.app.
+
+Feedback?  Email me at [phracker@lavabit.com](mailto:phracker@lavabit.com)
 
 ===
 ```
