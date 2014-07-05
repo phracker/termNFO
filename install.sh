@@ -3,17 +3,16 @@
 
 DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
-if [ -e "~/.nfo" ]; then
+if [ -e ~/.nfo ]; then
   echo "Seems there's already a file located at ~/.nfo, is termNFO already installed?"
   echo "Please remove it before retrying installation."
   exit 1
 else
   cp $DIR/nfo.sh ~/.nfo
   chmod +x ~/.nfo
-  echo "" >> ~/.bashrc
-  echo "# nfo function from termNFO" >> ~/.bashrc
-  echo ". ~/.nfo" >> ~/.bashrc
-  . ~/.nfo
-  echo "Installation complete. Try out your new 'nfo' command with any .nfo file."
+  echo >> ~/.bash_profile
+  echo "# nfo function from termNFO" >> ~/.bash_profile
+  echo ". ~/.nfo" >> ~/.bash_profile
+  echo "Installation complete. Restart your shell to start using 'nfo'."
   exit 0
 fi
