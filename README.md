@@ -1,5 +1,6 @@
 termNFO
 ---
+Read `.nfo` files using a simple bash function.
 
 ####Installation
 
