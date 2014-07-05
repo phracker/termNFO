@@ -11,12 +11,12 @@ git clone https://github.com/phracker/termNFO && cd termNFO
 bash install.sh
 ```
 
-That script places the `nfo` function in `~/.nfo`, and adds a line to `~/.bashrc` to call it.
+The installer places the `nfo` function in `~/.nfo`, and loads it from `~/.bash_profile`.
 
 `Terminus.dfont` and `TermNFO.terminal` ensure optimal viewing, but are not required.
 
 ###Usage:
-After install, you shouldn't need to reload your shell. Try it out!
+After install, reload your shell and try it out!
 
 `nfo <filename>`
 
