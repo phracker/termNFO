@@ -19,6 +19,3 @@ The installer places the `nfo` function in `~/.nfo`, and loads it from `~/.bash_
 After install, reload your shell and try it out!
 
 `nfo <filename>`
-
-
-Feedback?  Email me at [phracker@privatdemail.net](mailto:phracker@privatdemail.net)
